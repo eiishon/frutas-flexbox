@@ -1,0 +1,172 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  div.d {
+    border: black 2px solid;
+    margin: 10px;
+  }
+  
+  
+  p.pemoji {
+    text-align: center;
+  }
+  
+  p.p2 {
+    padding: 5px 0;
+    background-color: lightgray;
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  p.p1 {
+    text-align: justify;
+  }
+  
+  section.s11 p.p1 {
+    width: 200px;
+    margin: 10px;
+    border: black 2px solid;
+  }
+  
+  section.s12 {
+    justify-content: space-around;
+  }
+  
+  section.s12 p.p1 {
+    width: 200px;
+    margin: 10px;
+    border: black 2px solid;
+  }
+  
+  section.s13 {
+    align-items: center;
+  }
+  
+  section.s13 p.p1 {
+    width: 200px;
+    margin: 10px;
+    border: black 2px solid;
+  }
+  
+  section.s21 div.d {
+    width: 200px;
+  }
+  
+  section.s22 {
+    align-items: center;
+  }
+  
+  section.s22 div.d {
+    width: 200px;
+  }
+  
+  section.s22 p.p2 {
+    border-bottom: black 2px solid;
+  }
+  
+  
+  section.s23 div.d {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+  }
+  
+  section.s23 p.pemoji {
+    font-size: 400%;
+  }
+  
+  section.sa24 {
+    align-items: center;
+  }
+  
+  section.s24 div.d {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+  }
+  
+  section.s24 p.pemoji {
+    border-right: black 2px solid;
+    font-size: 400%;
+  }
+  
+  section.s24 p.p1 {
+    background-color: lightgray;
+  }
+  
+  section.s25 div.d {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    background-color: lightgray;
+  }
+  
+  section.s25 p.pemoji {
+    border-right: black 2px solid;
+    font-size: 400%;
+    background-color: white;
+  }
+  
+  section.s25 p.p2 {
+    flex-grow: 1;
+    align-self: center;
+  }
+  
+ section.s31 div.d {
+    width: 200px;
+  }
+  
+  section.s31 p.pemoji {
+    font-size: 600%;
+    text-align: center;
+  }
+  
+  
+  section.s32 div.d{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  section.s32 div.d2 {
+    display: flex;
+    flex-direction: column;
+    border-left: black 2px solid;
+  }
+  
+  section.s32 p.pemoji {
+    font-size: 600%;
+    align-self: center;
+  }
+  
+  section.s32 p.p2 {
+    border-bottom: black 2px solid;
+  }
+  
+  section.s33 div.d {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  section.s33 div.d2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+  }
+  
+  section.s33 p.pemoji {
+    font-size: 400%;
+    border-bottom: black 2px solid;
+    border-right: black 2px solid;
+    border-bottom-right-radius: 10px;
+  }
+  
+  section.s33 p.p2 {
+    align-self: center;
+    align-content: center;
+  }
